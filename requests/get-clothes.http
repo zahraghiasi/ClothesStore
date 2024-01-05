@@ -1,0 +1,3 @@
+GET localhost:3000/api/clothes/get-clothes/{{clothes}}
+Content-Type: application/json
+Authorization: Bearer {{auth_token}}

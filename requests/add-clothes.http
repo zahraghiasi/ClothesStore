@@ -1,0 +1,10 @@
+POST localhost:3000/api/clothes/add-clothes
+Content-Type: application/json
+Authorization: Bearer {{auth_token}}
+
+{
+  "name": "clothes 1",
+  "material": "Linen",
+  "price": 200,
+  "discount": 100
+}
